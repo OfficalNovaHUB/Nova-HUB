@@ -114,7 +114,7 @@ CheckButton.MouseButton1Click:Connect(function()
         ScreenGui:Destroy()
         
         -- HIER DEIN OBFUSKIERTES SCRIPT LADEN:
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficalNovaHUB/Nova-HUB/refs/heads/main/Script"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficalNovaHUB/Nova-HUB/refs/heads/main/part1"))()
     else
         Status.Text = "Invalid or Expired Key!"
         Status.TextColor3 = Color3.fromRGB(255, 50, 50)
